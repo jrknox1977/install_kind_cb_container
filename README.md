@@ -10,6 +10,7 @@ You have been warned.
 - `sudo systemctl enable docker`
 #### Add current user to docker group
 - `sudo usermod -aG docker ${USER}`
+- `newgrp docker` This will update the current session with the new group.
 ### Install Kind
 - `curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.17.0/kind-linux-amd64`
 - `chmod +x ./kind`
