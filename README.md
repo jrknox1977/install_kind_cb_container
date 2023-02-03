@@ -24,5 +24,7 @@ You have been warned.
 ## Start a new `kind` cluster
 - `kind create cluster --name <CLUSTER_NAME>`
 
+[Kind Quick Start Guide](https://kind.sigs.k8s.io/docs/user/quick-start/)
+
 
 
