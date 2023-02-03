@@ -3,7 +3,7 @@ If you are brave, you can try the install script here in the repo.
 ## KIND REQUIRES AT LEAST 2 CPU CORES. 
 You have been warned.
 ### Update ubuntu and install docker.io
-- `sudo apt-get update -y &&  sudo apt-get install -y docker.io`
+- `sudo apt-get update -y &&  sudo apt install -y docker.io`
 #### Docker Service
 - `sudo systemctl start docker`
 - `sudo systemctl status docker`

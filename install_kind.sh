@@ -2,11 +2,10 @@
 set -e
 
 # Update ubuntu and install docker.io
-sudo apt-get update -y && sudo apt-get install -y docker.io
+sudo apt-get update -y && sudo apt install -y docker.io
 
 # Docker Service
 sudo systemctl start docker
-sudo systemctl status docker
 sudo systemctl enable docker
 
 # Add current user to docker group
@@ -27,4 +26,6 @@ echo "alias k=kubectl" >> ~/.bash_aliases && source ~/.bashrc
 
 # Success!
 echo "Kind and kubectl installed successfully!"
+echo "Run 'sudo usermod -aG docker ${USER}' to add your current user to the docker group"
+echo "Run 'newgrp docker' to apply the new group to your current session"
 echo "Run 'kind create cluster <CLUSTER_NAME>' to create a cluster."
