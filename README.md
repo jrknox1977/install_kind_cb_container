@@ -21,7 +21,7 @@ You have been warned.
 #### (Optional) Add k alias for kubectl (I can't live without this.) 
 - `echo "alias k=kubectl" >> ~/.bash_aliases && source ~/.bashrc`
 ## Start a new `kind` cluster
-- `kind create cluster --name <CLUSTER_NAME>
+- `kind create cluster --name <CLUSTER_NAME>`
 
 
 
