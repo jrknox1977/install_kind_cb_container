@@ -20,7 +20,11 @@ sudo mv ./kind /usr/local/bin/kind
 # Instal kubectl
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
-kubectl version -o json
+kubectl version -o json --client
 
 # (Optional) Add k alias for kubectl (I can't live without this.)
 echo "alias k=kubectl" >> ~/.bash_aliases && source ~/.bashrc
+
+# Success!
+echo "Kind and kubectl installed successfully!"
+echo "Run 'kind create cluster <CLUSTER_NAME>' to create a cluster."
