@@ -1,5 +1,7 @@
 # Install Kind Cluster on Ubuntu 22 and install CB Container
-- If you are brave, you can try install script here in the repo. 
+If you are brave, you can try the install script here in the repo. 
+## KIND REQUIRES AT LEAST 2 CPU CORES. 
+You have been warned.
 ### Update ubuntu and install docker.io
 - `sudo apt-get update -y &&  sudo apt-get install -y docker.io`
 #### Docker Service
