@@ -8,9 +8,6 @@ sudo apt-get update -y && sudo apt install -y docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 
-# Add current user to docker group
-sudo usermod -aG docker ${USER}
-
 # Install Kind
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.17.0/kind-linux-amd64
 chmod +x ./kind
