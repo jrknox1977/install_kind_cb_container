@@ -25,7 +25,9 @@ kubectl version -o json --client
 echo "alias k=kubectl" >> ~/.bash_aliases && source ~/.bashrc
 
 # Success!
-echo "Kind and kubectl installed successfully!"
-echo "Run 'sudo usermod -aG docker ${USER}' to add your current user to the docker group"
-echo "Run 'newgrp docker' to apply the new group to your current session"
-echo "Run 'kind create cluster <CLUSTER_NAME>' to create a cluster."
+echo "**************************************************"
+echo "docker, kind and kubectl installed successfully!"
+echo "**************************************************"
+echo "Run --> 'sudo usermod -aG docker \${USER}' to add your current user to the docker group"
+echo "Run --> 'newgrp docker' to apply the new group to your current session"
+echo "Run --> 'kind create cluster --name <CLUSTER_NAME>' to create a cluster."
