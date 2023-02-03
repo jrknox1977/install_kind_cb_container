@@ -1,4 +1,5 @@
 # Install Kind Cluster on Ubuntu 22 and install CB Container
+- If you are brave, you can try install script here in the repo. 
 ### Update ubuntu and install docker.io
 - `sudo apt-get update -y &&  sudo apt-get install -y docker.io`
 #### Docker Service
