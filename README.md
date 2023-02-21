@@ -1,4 +1,4 @@
-# Install Kind Cluster on Ubuntu 22 and install CB Container
+# Install Kind Cluster on Ubuntu 22.04 LTS and install CB Container
 If you are brave, you can try the install script here in the repo. 
 ## KIND REQUIRES AT LEAST 2 CPU CORES. 
 You have been warned.
